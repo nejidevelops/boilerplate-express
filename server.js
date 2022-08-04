@@ -31,3 +31,6 @@ bGround.setupBackgroundApp(app, myApp, __dirname).listen(port, function(){
  * the verification process may break
  * ***************************************************/
 
+app.get("/", function(req, res){
+  res.send("Hello Express")
+});
